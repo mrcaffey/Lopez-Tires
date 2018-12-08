@@ -8,7 +8,6 @@ export default () => (
   <div style={{ color: `purple` }}>
     <Header headerText="Home Page"/>
     <p>Contact Us Now!</p>
-    <img src="/images/Lopez_Tires_Logo_bluetracks.png"/>
     <blockquote>
         <p>
           Welcome to the future site of Lopez Tires! 
