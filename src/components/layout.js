@@ -24,11 +24,10 @@ export default ({ children }) => (
     </header>
     {children}
   </div>
- 
 <StickyFooter
     bottomThreshold={50}
     normalStyles={{
-    backgroundColor: "#00FFFF",
+    backgroundColor: "rgba(255,0,0)",
     padding: "2rem"
     }}
     stickyStyles={{
@@ -36,7 +35,7 @@ export default ({ children }) => (
     padding: "2rem"
     }}
 >
-    Add any footer markup here
+    All rights reserved Lopez Tires 2018 // Copyright // Facebook link
 </StickyFooter>
 </div>
 
