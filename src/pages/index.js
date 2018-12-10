@@ -11,9 +11,11 @@ export default () => (
     <blockquote>
         <p>
           Welcome to the future site of Lopez Tires! 
+          I'm thinking carousel banner images here with overlaying text.
         </p>
        
       </blockquote>
   </div>
+
   </Layout>
 )
