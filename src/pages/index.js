@@ -1,10 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
+import Banner from "../components/banner"
 import Header from "../components/header"
 import Layout from "../components/layout"
 
 export default () => (
   <Layout>
+  <Banner/>
   <div style={{ color: `black` }}>
     <Header headerText="Home Page"/>
     <p>Contact Us Now!</p>
