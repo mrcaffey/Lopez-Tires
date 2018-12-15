@@ -11,7 +11,7 @@ export default () => (
     <p>Contact Us Now!</p>
     <blockquote>
         <p>
-         Carousel Image here
+         
         </p>
        
       </blockquote>

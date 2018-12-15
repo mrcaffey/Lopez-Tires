@@ -31,8 +31,9 @@ export default ({ children }) => (
     </header>
     {children}
   </div>
-  <div style={{ height: `75vh` }}>
+  <div style={{ height: `75vh`, alignContent: `center` }}>
     <p>CAROUSEL IMAGE</p>
+    <img src="/images/tire-page-banner.jpeg"></img>
   </div>
 <StickyFooter
     bottomThreshold={50}
