@@ -8,7 +8,7 @@ export default () => (
   <Banner/>
   <div style={{ color: `black` }}>
     <Header headerText="Home Page"/>
-    <p>Contact Us Now!</p>
+    <p>Contact Us Now! yes</p>
     <blockquote>
         <p>
          
@@ -16,6 +16,11 @@ export default () => (
        
       </blockquote>
   </div>
+  <div style={{ height: `100vh`, alignContent: `center` }}>
+    <p>CAROUSEL IMAGE</p>
+    <img src="/images/tire-page-banner.jpeg"></img>
+  </div>
+
 
   </Layout>
 )
