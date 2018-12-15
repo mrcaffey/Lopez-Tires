@@ -12,9 +12,9 @@ const ListLink = props => (
 export default ({ children }) => (
 <div>
 <div style={{ margin: `0 auto`, maxWidth: 960, padding: `0px 1.0875rem 1.45rem`, paddingTop: 0, }}>
-      <div>
+      <div style={{ height: `50vh`}}>
       <banner>
-        <img src="/images/LopezTires_newLogo.png"></img>
+        <img src="/images/LopezTires_newLogo.png" style={{ flex:`1`, padding: `1em`}}></img>
         <img src="/images/LopezTires_tireTracks.png" style={{ flex:`1`, float: `right`, objectFit: `contain` }}></img>
         <p>The banner is here</p>
       </banner>
@@ -30,6 +30,9 @@ export default ({ children }) => (
       </ul>
     </header>
     {children}
+  </div>
+  <div style={{ height: `75vh` }}>
+    <p>CAROUSEL IMAGE</p>
   </div>
 <StickyFooter
     bottomThreshold={50}

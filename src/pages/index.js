@@ -11,8 +11,7 @@ export default () => (
     <p>Contact Us Now!</p>
     <blockquote>
         <p>
-          Welcome to the future site of Lopez Tires! 
-          I'm thinking carousel banner images here with overlaying text.
+         Carousel Image here
         </p>
        
       </blockquote>
