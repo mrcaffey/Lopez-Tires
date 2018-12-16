@@ -10,3 +10,6 @@ class Carousel extends React.Component {
     );
   }
 }
+
+
+export default Carousel
