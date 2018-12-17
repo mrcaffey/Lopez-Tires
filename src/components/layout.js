@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, Container } from "gatsby"
 import StickyFooter from "react-sticky-footer"
 
 const ListLink = props => (
@@ -11,11 +11,13 @@ const ListLink = props => (
 
 export default ({ children }) => (
 <div>
-<div style={{ margin: `0 auto`, maxWidth: 960, padding: `0px 1.0875rem 1.45rem`, paddingTop: 0, }}>
-      <div style={{ height: `30vh` }}>
+<Container style={{ margin: `0 auto`, maxWidth: `960`,padding: `0px 1.0875rem 1.45rem`, paddingTop: 0, display: `block` }}>
+      <div style={{ height: `38vh` }}>
       <banner>
-        <button><a href="/"><img src="/images/LopezTires_newLogo.png" alt="lopez tires utah" onClick="/" style={{ flex:`1`, padding: `1em`}}></img></a></button>
-        <img src="/images/LopezTires_tireTracks.png" style={{ flex:`1`, padding:`1em`, float: `right` }}></img>
+        <div>
+        <button><a href="/"><img src="/images/LopezTires_newLogo.png" alt="lopez tires utah" onClick="/" style={{ paddingTop: `1em` }}></img></a></button>
+        <img src="/images/Lopez_Tires_Logo_bluetrack.png" style={{ padding:`0em`, float: `right`, maxWidth: `380`, position: `absolute`}}></img>
+        </Container>
       </banner>
       </div>
       <header style={{ marginBottom: `1.5rem`, marginTop: `1.5rem`}}>
