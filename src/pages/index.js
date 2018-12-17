@@ -8,19 +8,11 @@ export default () => (
   <Banner/>
   <div style={{ color: `black` }}>
     <Header headerText="Home Page"/>
-    <p>Contact Us Now! yes</p>
-    <blockquote>
-        <p>
-         
-        </p>
-       
-      </blockquote>
   </div>
   <div style={{ height: `100vh`, alignContent: `center` }}>
-    <p>CAROUSEL IMAGE</p>
     <img src="/images/tire-page-banner.jpeg"></img>
+  <h1>Welcome to Lopez Tires</h1>
+  <p>We are a small tire company serving the Salt Lake area</p>
   </div>
-
-
   </Layout>
 )

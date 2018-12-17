@@ -12,18 +12,17 @@ const ListLink = props => (
 export default ({ children }) => (
 <div>
 <div style={{ margin: `0 auto`, maxWidth: 960, padding: `0px 1.0875rem 1.45rem`, paddingTop: 0, }}>
-      <div style={{ height: `48vh`}}>
+      <div style={{ height: `30vh` }}>
       <banner>
-        <img src="/images/LopezTires_newLogo.png" style={{ flex:`1`, padding: `1em`}}></img>
-        <img src="/images/LopezTires_tireTracks.png" style={{ flex:`1`, float: `right`, objectFit: `contain` }}></img>
-        <p>The banner is here</p>
+        <button><a href="/"><img src="/images/LopezTires_newLogo.png" alt="lopez tires utah" onClick="/" style={{ flex:`1`, padding: `1em`}}></img></a></button>
+        <img src="/images/LopezTires_tireTracks.png" style={{ flex:`1`, padding:`1em`, float: `right` }}></img>
       </banner>
       </div>
       <header style={{ marginBottom: `1.5rem`, marginTop: `1.5rem`}}>
       <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
         <h3 style={{ display: `inline` }}></h3>
       </Link>
-      <ul style={{ listStyle: `none`, float: `right` }}>
+      <ul style={{ listStyle: `none`, float: `right`, display: `relative` }}>
         <ListLink to="/">Home</ListLink>
         <ListLink to="/about/">About</ListLink>
         <ListLink to="/contact/">Contact</ListLink>
@@ -45,5 +44,6 @@ export default ({ children }) => (
     All rights reserved Lopez Tires 2018 // Copyright // Facebook link
 </StickyFooter>
 </div>
+
 
 )

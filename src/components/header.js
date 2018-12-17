@@ -6,7 +6,8 @@ const Header = ({ }) => (
   <div
     style={{
       background: 'red',
-      marginBottom: '1.45rem',
+      marginBottom: '0rem',
+      postion: 'absolute'
     }}
   >
     <div
