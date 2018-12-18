@@ -46,6 +46,16 @@ const Menu = () => {
     <Header>
       <Nav>
         <ul>
+        <li>
+            <Link to="/tires/" activeStyle={activeLinkStyle}>
+              Contact
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact/" activeStyle={activeLinkStyle}>
+              Contact
+            </Link>
+          </li>
           <li>
             <Link to="/" activeStyle={activeLinkStyle}>
               Home
