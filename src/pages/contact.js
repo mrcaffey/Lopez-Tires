@@ -8,6 +8,7 @@ export default () => (
     <Header headerText="Contact" />
     <p>Give us a call today!</p>
     <p>801-883-9519</p>
+    <img src="/images/tiretread.jpg"></img>
   </div>
   </Layout>
 )
