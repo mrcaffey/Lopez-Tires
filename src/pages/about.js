@@ -7,7 +7,13 @@ export default () => (
   <Layout>
   <div style={{ color: `black` }}>
     <Header headerText="About Us" />
-    <p>We are Lopez Tires.</p>
+    <h1>Who are we? </h1>
+    <div style = {{ alignContent: `right` }}>
+    <img src="/images/checkmeter.jpg"></img>
+    </div>
+    <div style = {{ alignContent: `left` }}>
+    <h3>We started this business</h3>
+    </div>
   </div>
   </Layout>
 )

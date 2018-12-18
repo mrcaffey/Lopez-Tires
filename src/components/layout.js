@@ -14,8 +14,7 @@ export default ({ children }) => (
 <div>
   <div style={{ margin: `0 auto`, maxWidth: `960`,padding: `0px 1.0875rem 1.45rem`, paddingTop: 0, display: `inline` }}>
       <div style={{ height: `38vh` }}>
-        <button><a href="/"><img src="/images/LopezTires_newLogo.png" alt="lopez tires utah" onClick="/" style={{ paddingTop: `1em` }}></img></a></button>
-        <img src="/images/Lopez_Tires_Logo_bluetrack.png" style={{ padding:`0em`, float: `right`}}></img>
+        <button><a href="/"><img src="/images/Lopez_Tires_Logo_bluetrac.png" alt="lopez tires utah" onClick="/" style={{ paddingTop: `1em` }}></img></a></button>
       </div>
       <header style={{ marginBottom: `1.5rem`, marginTop: `1.5rem`}}>
       <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>

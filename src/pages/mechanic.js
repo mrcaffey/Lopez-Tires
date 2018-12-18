@@ -8,6 +8,8 @@ export default () => (
   <Layout>
   <div style={{ color: `black` }}>
     <Header headerText="Auto Mechanic" />
+    <h1>Automotive Services</h1>
+    <img src="/images/LopezTires_enginePicture.jpg" style={{ width: `993px`, height: `500px`, alignContent: `center`}}></img>
     <p>Give us a call today!</p>
     <p>801-883-9519</p>
   </div>
