@@ -7,8 +7,10 @@ export default () => (
   <div style={{ color: `black` }}>
     <Header headerText="Contact" />
     <p>Give us a call today!</p>
-    <p>801-883-9519</p>
-    <img src="/images/tiretread.jpg"></img>
+    <a href="tel:1-801-883-9519">801-883-9519</a>
   </div>
+  <section>
+  <img src="/images/tiretread.jpg"></img>
+  </section>
   </Layout>
 )

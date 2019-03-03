@@ -7,7 +7,6 @@ export default () => (
   <Layout>
   <div style={{ color: `black` }}>
     <Header headerText="New & Used Tires" />
-    <h1>New & Used Tires</h1>
     <img src="/images/workontires.jpg"></img>
     <p>Give us a call today!</p>
     <p>801-883-9519</p>

@@ -47,6 +47,11 @@ const Menu = () => {
       <Nav>
         <ul>
         <li>
+          <Link to="/" activeStyle={activeLinkStyle}>
+              Home
+          </Link>
+        </li>
+        <li>
             <Link to="/tires/" activeStyle={activeLinkStyle}>
               Contact
             </Link>
@@ -54,11 +59,6 @@ const Menu = () => {
           <li>
             <Link to="/contact/" activeStyle={activeLinkStyle}>
               Contact
-            </Link>
-          </li>
-          <li>
-            <Link to="/" activeStyle={activeLinkStyle}>
-              Home
             </Link>
           </li>
           <li>

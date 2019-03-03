@@ -7,11 +7,10 @@ export default () => (
   <Layout>
   <Banner/>
   <div style={{ color: `black` }}>
-    <Header headerText="Home Page"/>
+    <Header headerText="Welcome to Lopez Tires"/>
   </div>
   <div style={{ height: `100vh`, alignContent: `center`}}>
     <img src="/images/LopezTires_tire-page-banner.jpg"></img>
-  <h1>Welcome to Lopez Tires</h1>
   <p>We are a small tire company serving the Salt Lake area.</p>
   <p>Our services include tire sales including full install as well as auto mechanic services</p>
   </div>
