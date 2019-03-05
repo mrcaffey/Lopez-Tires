@@ -25,7 +25,6 @@ export default ({ children }) => (
       <ul style={{ listStyle: `none`, float: `right`, display: `relative` }}>
         <ListLink to="/tires/">New & Used Tires</ListLink>
         <ListLink to="/mechanic">Auto Services</ListLink>
-        <ListLink to="/">Home</ListLink>
         <ListLink to="/about/">About</ListLink>
         <ListLink to="/contact/">Contact</ListLink>
       </ul>
