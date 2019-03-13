@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import StickyFooter from "react-sticky-footer"
 import Flexbox from "flexbox-react"
+import Header from "header"
 
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
@@ -15,10 +16,13 @@ export default ({ children }) => (
   <div style={{ margin: `0 auto`, maxWidth: `960`,padding: `0px 1.0875rem 1.45rem`, paddingTop: 0, display: `block` }}>
       <div style={{ height: `38vh`}}>
       <Link to={'/'}>
+      <br/>
+      <br/>
        <a href="/"><img src="/images/Lopez_Tires_Logo_bluetrac.png" alt="lopez tires utah" onClick="/" style={{ paddingTop: `1em` }}></img></a>
        </Link>
       </div>
-      <header style={{ marginBottom: `1.5rem`, marginTop: `1.5rem`}}>
+      <Flexbox flexDirection="row">
+      <header>
       <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
         <h3 style={{ display: `block` }}></h3>
       </Link>
@@ -29,6 +33,7 @@ export default ({ children }) => (
         <ListLink to="/contact/">Contact</ListLink>
       </ul>
     </header>
+    </Flexbox>
     {children}
   </div>
   <StickyFooter

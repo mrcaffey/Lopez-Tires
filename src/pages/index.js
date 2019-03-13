@@ -7,7 +7,8 @@ export default () => (
   <Layout>
   <Banner/>
   <div style={{ color: `black` }}>
-    <Header headerText="Welcome to Lopez Tires"/>
+  <Header/>
+    <h1>Welcome to Lopez Tires</h1>
   </div>
   <div style={{ height: `100vh`, alignContent: `center`}}>
     <img src="/images/LopezTires_tire-page-banner.jpg"></img>

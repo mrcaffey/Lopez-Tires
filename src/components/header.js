@@ -9,7 +9,7 @@ const Header = ({ }) => (
     style={{
       background: 'red',
       marginBottom: '0rem',
-      postion: 'absolute'
+      position: 'absolute'
     }}
   >
     <div
